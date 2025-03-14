@@ -5,6 +5,7 @@ class Product { // 상품 정의 클래스
   int price; // 상품 가격
   Product(this.name, this.price); // 생성자
 }
+
 class ShoppingMall { // 쇼핑몰 정의 클래스
   List<Product> products; // 상품 목록
   Map<Product, int> cart = {}; // 상품과 갯수를 정함함
